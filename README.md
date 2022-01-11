@@ -1,6 +1,6 @@
 # Pokedex Proxy API
 
-### Task
+## Task
 
 - [x] Combine All of that 3 endpoint result and create same response as bellow
 
