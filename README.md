@@ -8,7 +8,7 @@
   - ```color``` gets from ```https://pokeapi.co/api/v2/pokemon-species/{{ pokemon }}/```
   - ```types``` & ```image``` get from ```https://pokeapi.co/api/v2/pokemon/{{ pokemon }}/```
  
-```json
+```js
 [
     {
         "color": "green",
