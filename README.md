@@ -2,7 +2,7 @@
 
 ### Task
 
-- [ ] Combine All of that 3 endpoint result and create same response as bellow
+- [x] Combine All of that 3 endpoint result and create same response as bellow
 
   - ```pokemons``` list from ```https://pokeapi.co/api/v2/pokemon?limit=10```
   - ```color``` gets from ```https://pokeapi.co/api/v2/pokemon-species/{{ pokemon }}/```
