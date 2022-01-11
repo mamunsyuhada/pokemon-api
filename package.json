@@ -1,0 +1,27 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "description": "mini-project-refactory",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mamunsyuhada/pokemon-api.git"
+  },
+  "keywords": [
+    "pokemon"
+  ],
+  "author": "Imam Syuhada",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mamunsyuhada/pokemon-api/issues"
+  },
+  "homepage": "https://github.com/mamunsyuhada/pokemon-api#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
+  }
+}
