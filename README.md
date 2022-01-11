@@ -43,3 +43,4 @@
 - ```git clone https://github.com/mamunsyuhada/pokemon-api && cd pokemon-api```
 - ```npm i```
 - ```npm run start``` or ```npm run dev```
+- then you can hit this api at ```http://localhost:3434```
