@@ -17,10 +17,11 @@ app.get('/', async(_, res) => {
   for(const pokemon of pokemons){
     const { name, url } = pokemon;
 
-    const { data: { sprites: { other } } } = await axios({ method: 'get', url });
+    const { data: { types, sprites: { other } } } = await axios({ method: 'get', url });
     const { front_default: image } = other['official-artwork'];
     outputs.push({
       name,
+      types,
       image,
     });
   }
