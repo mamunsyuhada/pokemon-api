@@ -44,3 +44,7 @@
 - ```npm i```
 - ```npm run start``` or ```npm run dev```
 - then you can hit this api at ```http://localhost:3434```
+
+## Demo
+
+![demo](demo.gif)
