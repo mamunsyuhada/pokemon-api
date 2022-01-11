@@ -17,9 +17,19 @@ app.get('/', async(_, res) => {
   for(const pokemon of pokemons){
     const { name, url } = pokemon;
 
-    const { data: { types, sprites: { other } } } = await axios({ method: 'get', url });
+    const {
+      data: {
+        types,
+        sprites: { other },
+        species: { url: urlColor}
+      }
+    } = await axios({ method: 'get', url });
     const { front_default: image } = other['official-artwork'];
+
+    const { data: { color: { name: color } } } = await axios({ method: 'get', url: urlColor });
+
     outputs.push({
+      color,
       name,
       types,
       image,
