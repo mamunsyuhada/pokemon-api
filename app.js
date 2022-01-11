@@ -21,7 +21,7 @@ app.get('/', async(_, res) => {
       data: {
         types,
         sprites: { other },
-        species: { url: urlColor}
+        species: { url: urlColor }
       }
     } = await axios({ method: 'get', url });
     const { front_default: image } = other['official-artwork'];
